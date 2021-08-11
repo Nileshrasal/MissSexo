@@ -108,7 +108,7 @@ if ENV:
         raise Exception("Your blacklisted chats list does not contain valid integers.")
 
 else:
-    from Mizuki.config import Development as Config
+    from Mizuki import Development as Config
 
     TOKEN = Config.TOKEN
 
