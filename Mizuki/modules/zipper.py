@@ -38,16 +38,16 @@ async def _(event):
         return
 
     if not event.is_reply:
-        await event.reply("Reply to a file to compress it.")
+        await event.reply("Reply to a file to compress it. LauDe!")
         return
     if event.is_group:
         if not (await is_register_admin(event.input_chat, event.message.sender_id)):
             await event.reply(
-                "Hey, You are not admin. You can't use this command, But you can use in my pm 🙂"
+                "Hey, You are not admin. You can't use this command, But you can use in my pm 🙂Aja bete pm mai."
             )
             return
 
-    mone = await event.reply("Processing...")
+    mone = await event.reply("Processing._._.")
     if not os.path.isdir(TEMP_DOWNLOAD_DIRECTORY):
         os.makedirs(TEMP_DOWNLOAD_DIRECTORY)
     if event.reply_to_msg_id:
@@ -131,7 +131,7 @@ async def _(event):
             )
             return
 
-    mone = await event.reply("Processing...")
+    mone = await event.reply("Processing.-.-.")
     if not os.path.isdir(TEMP_DOWNLOAD_DIRECTORY):
         os.makedirs(TEMP_DOWNLOAD_DIRECTORY)
     if event.reply_to_msg_id:
