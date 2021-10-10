@@ -8,9 +8,9 @@ from Mizuki.events import register
 
 client = MongoClient()
 client = MongoClient(MONGO_DB_URI)
-db = client["missjuliarobot"]
+db = client["mizuki"]
 approved_users = db.approve
-dbb = client["missjuliarobot"]
+dbb = client["mizuki"]
 poll_id = dbb.pollid
 
 
