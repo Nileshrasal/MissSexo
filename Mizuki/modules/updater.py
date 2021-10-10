@@ -14,7 +14,7 @@ from Mizuki import telethn as update
 from Mizuki.events import register
 
 if not UPSTREAM_REPO_URL:
-    UPSTREAM_REPO_URL = "https://github.com/ImJanindu/Mizuki"
+    UPSTREAM_REPO_URL = "https://github.com/Javes786/MissSexo"
 
 requirements_path = path.join(
     path.dirname(path.dirname(path.dirname(__file__))), "requirements.txt"
@@ -106,7 +106,7 @@ async def upstream(ups):
     changelog = await gen_chlog(repo, f"HEAD..upstream/{ac_br}")
 
     if not changelog and not force_update:
-        await lol.edit("\nYour Mizuki >>  **up-to-date**  \n")
+        await lol.edit("\nYour Miss Sexo >>  **up-to-date**  \n")
         repo.__del__()
         return
 
