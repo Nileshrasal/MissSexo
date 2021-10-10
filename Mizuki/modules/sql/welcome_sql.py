@@ -8,7 +8,7 @@ from Mizuki.modules.helper_funcs.msg_types import Types
 from Mizuki.modules.sql import BASE, SESSION
 
 DEFAULT_WELCOME = "Hey {first}, how are you?"
-DEFAULT_GOODBYE = "Nice knowing ya!"
+DEFAULT_GOODBYE = "Nice knowing ya! bhadwe"
 
 DEFAULT_WELCOME_MESSAGES = [
     "{first} is here!",  # Discord welcome messages copied
@@ -136,6 +136,8 @@ DEFAULT_WELCOME_MESSAGES = [
     "Kaizoku ou ni...nvm wrong anime.",  # op
     "{first} just joined! Gear.....second!",  # Op
     "Omae wa mou....shindeiru",
+    "Abe Ooo {first} ChuT Ka MaaL 😂😂", #Something has changed
+    "Meri Beti hai Tu {first} Moi beti",
     "Hey {first}, the leaf village lotus blooms twice!",  # Naruto stuff begins from here
     "{first} Joined! Omote renge!",
     "{first} joined!, Gate of Opening...open!",
@@ -184,6 +186,7 @@ DEFAULT_GOODBYE_MESSAGES = [
     "Marry and reproduce",
     "Stay asleep",
     "Wake up",
+    "NikaL Laude PehLi FuRSaT Mai NikAL",
     "Look to la luna",
     "Steven lives",
     "Meet strangers without prejudice",
