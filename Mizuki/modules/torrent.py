@@ -80,7 +80,7 @@ async def tor_search(event):
     except BaseException:
         pass
     msg = (
-        "**Torrent Search By Mizu**\n\nQuery: `{}`".format(search_str)
+        "**Sexiest Torrent Search By Miss Sexo**\n\nQuery: `{}`".format(search_str)
         + "\n\n**Results👇**\n\n"
     )
     counter = 0
