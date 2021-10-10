@@ -213,7 +213,7 @@ __help__ = f"""
 • `/gh <query>`*:* Search github repos and users.
 • `/reverse`*:* Does a *reverse image search* of the media which it was replied to.
 
-Reports bugs at @MizukiSupport
+Reports bugs at @ATGKDiscuss
 """
 
 __mod_name__ = "Search"
