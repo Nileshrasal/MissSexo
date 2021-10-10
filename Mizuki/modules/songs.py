@@ -24,7 +24,7 @@ from Mizuki.events import register
 
 client = MongoClient()
 client = MongoClient(MONGO_DB_URI)
-db = client["missjuliarobot"]
+db = client["mizuki"]
 approved_users = db.approve
 
 
