@@ -80,7 +80,7 @@ if ENV:
     STRICT_GBAN = bool(os.environ.get("STRICT_GBAN", False))
     WORKERS = int(os.environ.get("WORKERS", 8))
     BOT_USERNAME = os.environ.get("BOT_USERNAME", None)
-    BAN_STICKER = os.environ.get("BAN_STICKER", "CAADAgADOwADPPEcAXkko5EB3YGYAg")
+    BAN_STICKER = os.environ.get("BAN_STICKER", "CAADBQADOgIAAktlAAFVt9t-dUT2LuIC")
     ALLOW_EXCL = os.environ.get("ALLOW_EXCL", False)
     CASH_API_KEY = os.environ.get("CASH_API_KEY", None)
     TIME_API_KEY = os.environ.get("TIME_API_KEY", None)
@@ -97,7 +97,7 @@ if ENV:
     HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
     HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
     UPSTREAM_REPO = os.environ.get(
-        "UPSTREAM_REPO", "https://github.com/ImJanindu/Mizuki"
+        "UPSTREAM_REPO", "https://github.com/Javes786/MissSexo"
     )
     BOT_ID = int(os.environ.get("BOT_ID", None))
     OPENWEATHERMAP_ID = os.environ.get("OPENWEATHERMAP_ID", None)
