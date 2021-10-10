@@ -53,7 +53,7 @@ async def zombies(event):
 
     con = event.pattern_match.group(1).lower()
     del_u = 0
-    del_status = "No Deleted Accounts Found, Group Is Clean."
+    del_status = "No Bhadwa Deleted Accounts Found, Group Is Clean."
 
     if con != "clean":
         find_zombies = await event.respond("Searching For Zombies...")
@@ -63,7 +63,7 @@ async def zombies(event):
                 del_u += 1
                 await sleep(1)
         if del_u > 0:
-            del_status = f"Found **{del_u}** Zombies In This Group.\
+            del_status = f"Found **{del_u}** Bhadwe Zombies In This Group.\
             \nClean Them By Using :-\n 👉 `/zombies clean`"
         await find_zombies.edit(del_status)
         return
@@ -83,7 +83,7 @@ async def zombies(event):
         await event.respond("I Am Not An Admin Here!")
         return
 
-    cleaning_zombies = await event.respond("Cleaning Zombies...")
+    cleaning_zombies = await event.respond("Cleaning Bhadwe Zombies...")
     del_u = 0
     del_a = 0
 
