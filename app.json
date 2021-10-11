@@ -19,12 +19,12 @@
       "API_ID": {
          "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
          "required": true,
-         "value": ""
+         "value": "4097499"
       },
       "API_HASH": {
          "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
          "required": true,
-         "value": ""
+         "value": "2bab511f4e809de043c7bd120fab1eaf"
       },    
       "SQLALCHEMY_DATABASE_URI": {
          "description": "Your postgres sql db, empty this field if you dont have one.",
@@ -48,12 +48,12 @@
       "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
          "required": true,
-         "value": ""
+         "value": "-1001161290784"
       },
       "JOIN_LOGGER": {
          "description": "A channel where bot will print who added it to what group, useful during debugging or spam handling.",
          "required": true,
-         "value": ""
+         "value": "-1001161290784"
       },
       "HEROKU_API_KEY": {
          "description": "Your heroku API key.",
@@ -170,7 +170,7 @@
       "BOT_ID": {
          "description": "ID of bot.. get it from other bot",
          "required": true,
-         "value": ""
+         "value": "1592177207"
       },         
       "DONATION_LINK": {
          "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it linking to paul",
@@ -184,7 +184,7 @@
       "BAN_STICKER": {
          "description": "ID of the sticker you want to use when banning people.",
          "required": false,
-         "value": ""
+         "value": "CAACAgUAAx0CRX3CaAACA4JhYUjImdTpdNqWXynu-PYExNGrjQACOgIAAktlAAFVt9t-dUT2LuIhBA"
       },
       "WALL_API": {
          "description": "Required for wallpaper. Get your's from https://wall.alphacoders.com/",
