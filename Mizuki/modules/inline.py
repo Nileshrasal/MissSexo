@@ -9,12 +9,12 @@ from pyrogram.errors.exceptions.bad_request_400 import QueryIdInvalid
 
 @pbot.on_message(filters.command("inline"))
 async def inline_help(client: Client, message: Message):
-    await message.reply_text("""💡 Inline Bot Service Of @MizukiDevRobot 💡
+    await message.reply_text("""💡 Inline Bot Service Of @MissSexo_BOT 💡
 
 `I'm more efficient when added as group admin. By the way these commands can be used by anyone in a group via inline.`
 
 >> Syntax <<
-`@MizukiDevRobot [command] [query]`
+`@MissSexo_BOT [command] [query]`
 
 >> Commands <<
 - tr [LANG] [QUERY] - Translate Text.
@@ -269,12 +269,12 @@ async def inline_query_handler(client, query):
 
 __mod_name__ = "Inline"
 __help__ = """
-💡 Inline Bot Service Of @MizukiDevRobot 💡
+💡 Inline Bot Service Of @MissSexo_BOT 💡
 
 `I'm more efficient when added as group admin. By the way these commands can be used by anyone in a group via inline.`
 
 >> Syntax <<
-`@MizukiDevRobot [command] [query]`
+`@MissSexo_BOT [command] [query]`
 
 >> Commands <<
 - `tr` [LANG] [QUERY] - Translate Text.
