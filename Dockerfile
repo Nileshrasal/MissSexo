@@ -65,11 +65,11 @@ RUN apt update && apt upgrade -y && \
 RUN pip3 install --upgrade pip setuptools
 
 # Copy Python Requirements to /root/Mizuki
-RUN git clone -b shiken https://github.com/Javes786/MissSexo /root/Mizuki
+RUN git clone -b shiken https://github.com/Javes786/MissSexo /root/MissSexo
 WORKDIR /root/Mizuki
 
-#Copy config file to /root/Mizuki/Mizuki
-COPY ./Mizuki/sample_config.py ./Mizuki/config.py* /root/Mizuki/Mizuki/
+#Copy config file to /root/MissSexo/Mizuki
+COPY ./Mizuki/sample_config.py ./Mizuki/config.py* /root/MissSexo/Mizuki/
 
 ENV PATH="/home/bot/bin:$PATH"
 
