@@ -29,7 +29,7 @@
       "SQLALCHEMY_DATABASE_URI": {
          "description": "Your postgres sql db, empty this field if you dont have one.",
          "required": false,
-         "value": ""
+         "value": "postgres://bfixbcoy:IdkcdtUPhVkz16abcHQ5AFAo78mUkgtv@fanny.db.elephantsql.com/bfixbcoy"
       },      
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
@@ -160,7 +160,7 @@
       "MONGO_DB_URI": {
          "description": "Mongo db URI here. Get it from mongodb.com create acc. Create organization. Create a cluster connection mode from everywhere give user pass get uri. replace <password> with pass <name> with MissSexo",
          "required": true,
-         "value": ""   
+         "value": "mongodb+srv://misssexo:misssexobot@misssexo.zsuxx.mongodb.net/misssexo?retryWrites=true&w=majority"   
       },  
       "OPENWEATHERMAP_ID": {
          "description": "Get weather API from https://openweathermap.org/api",
