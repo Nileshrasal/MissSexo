@@ -14,27 +14,27 @@
       "TOKEN": {
          "description": "Your bot token. Get one from @BotFather",
          "required": true,
-         "value": ""
+         "value": "1592177207:AAHrWLI52q1ufic7v1eoHH_YBCTgpoKy438"
       },
       "API_ID": {
          "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
          "required": true,
-         "value": ""
+         "value": "4097499"
       },
       "API_HASH": {
          "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
          "required": true,
-         "value": ""
+         "value": "2bab511f4e809de043c7bd120fab1eaf"
       },    
       "SQLALCHEMY_DATABASE_URI": {
          "description": "Your postgres sql db, empty this field if you dont have one.",
          "required": false,
-         "value": ""
+         "value": "postgres://bfixbcoy:IdkcdtUPhVkz16abcHQ5AFAo78mUkgtv@fanny.db.elephantsql.com/bfixbcoy"
       },      
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "511112478"
+         "value": "511112479"
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
@@ -48,22 +48,22 @@
       "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
          "required": true,
-         "value": ""
+         "value": "-1001161290784"
       },
       "JOIN_LOGGER": {
          "description": "A channel where bot will print who added it to what group, useful during debugging or spam handling.",
          "required": true,
-         "value": ""
+         "value": "-1001161290784"
       },
       "HEROKU_API_KEY": {
          "description": "Your heroku API key.",
          "required": true,
-         "value": ""
+         "value": "ef0bc4ff-4d27-4dc8-ab77-95d3ba60c47e"
       },
       "HEROKU_APP_NAME": {
          "description": "Your heroku app name.",
          "required": true,
-         "value": ""
+         "value": "misssexo"
       },
       "UPSTREAM_REPO": {
          "description": "Your bot github repo url.",
@@ -73,12 +73,12 @@
       "CASH_API_KEY": {
          "description": "Required for currency converter. Get yours from https://www.alphavantage.co/support/#api-key",
          "required": true,
-         "value": ""
+         "value": "false"
       },
       "TIME_API_KEY": {
          "description": "Required for timezone information. Get yours from https://timezonedb.com/api",
          "required": true,
-         "value": ""
+         "value": "false"
       },
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot.",
@@ -136,7 +136,7 @@
       "URL": {
          "description": "The Heroku App URL :-  https://<appname>.herokuapp.com/",
          "required": false,
-         "value": ""
+         "value": "https://misssexo.herokuapp.com/"
       },
       "NO_LOAD": {
          "description": "Dont load these modules cause they shit, space separation",
@@ -155,22 +155,22 @@
       "STRING_SESSION ": {
          "description": "Telethon string session from https://repl.it/@SpEcHiDe/GenerateStringSession",
          "required": true,
-         "value": ""
+         "value": "1BVtsOHUBuzPz9CzQjcU7UQwDHV3rpLSsgaKlo28ghe5DXfn6a7lCqquoo5C7Qc5n-FxUllLKoPa7MfAlaYq3hJP3LNBHvR3G7TH8lZZ1w5uYi5pXowIyQS43KP-qK6a5z7hTgYGtu486pSQuFY-FPZSAdhoKEHL3aKr0AXqWpR_LjwThDxO536poknpeFM9urj0eljc3Kdk9IsG-Lk6MrwL7bvXrBhac4ke0k3ZPyyKdT7McqPIzEf6jcr_XqetMPJ9AJsCcRpkKvR0MWjfhfolJQaAG5IMxH3IC5_oxXR_Mj6Kx-L2Vu9CoRWKHB4afB6_ZHP_v3afDNahynwSIbKlTL-zeBtU="
       }, 
       "MONGO_DB_URI": {
-         "description": "Mongo db URI here. Get it from mongodb.com create acc. Create organization. Create a cluster connection mode from everywhere give user pass get uri. replace <password> with pass <name> with Mizuki",
+         "description": "Mongo db URI here. Get it from mongodb.com create acc. Create organization. Create a cluster connection mode from everywhere give user pass get uri. replace <password> with pass <name> with MissSexo",
          "required": true,
-         "value": ""   
+         "value": "mongodb+srv://misssexo:misssexobot@misssexo.zsuxx.mongodb.net/misssexo?retryWrites=true&w=majority"   
       },  
       "OPENWEATHERMAP_ID": {
          "description": "Get weather API from https://openweathermap.org/api",
          "required": true,
-         "value": ""
+         "value": "false"
       },    
       "BOT_ID": {
          "description": "ID of bot.. get it from other bot",
          "required": true,
-         "value": ""
+         "value": "1592177207"
       },         
       "DONATION_LINK": {
          "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it linking to paul",
@@ -184,7 +184,7 @@
       "BAN_STICKER": {
          "description": "ID of the sticker you want to use when banning people.",
          "required": false,
-         "value": ""
+         "value": "CAACAgUAAx0CRX3CaAACA4JhYUjImdTpdNqWXynu-PYExNGrjQACOgIAAktlAAFVt9t-dUT2LuIhBA"
       },
       "WALL_API": {
          "description": "Required for wallpaper. Get your's from https://wall.alphacoders.com/",
