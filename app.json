@@ -43,7 +43,7 @@
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username without '@' like: InfinityJE",
          "required": true,
-         "value": ""
+         "value": "ATGKDiscuss"
       },
       "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
@@ -73,12 +73,12 @@
       "CASH_API_KEY": {
          "description": "Required for currency converter. Get yours from https://www.alphavantage.co/support/#api-key",
          "required": true,
-         "value": ""
+         "value": "false"
       },
       "TIME_API_KEY": {
          "description": "Required for timezone information. Get yours from https://timezonedb.com/api",
          "required": true,
-         "value": ""
+         "value": "false"
       },
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot.",
@@ -165,7 +165,7 @@
       "OPENWEATHERMAP_ID": {
          "description": "Get weather API from https://openweathermap.org/api",
          "required": true,
-         "value": ""
+         "value": "false"
       },    
       "BOT_ID": {
          "description": "ID of bot.. get it from other bot",
