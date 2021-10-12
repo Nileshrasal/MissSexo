@@ -1,7 +1,7 @@
-Mizuhararobot/config.py
-Mizuhararobot/*.session
-Mizuhararobot/*.session-journal
-Mizuhararobot/config.ini
+MissSexo/config.py
+MissSexo/*.session
+MissSexo/*.session-journal
+MissSexo/config.ini
 log.txt
 *.pyc
 .idea/
@@ -9,12 +9,12 @@ log.txt
 .pydevproject
 .directory
 .vscode
-Mizuhararobot/modules/helper_funcs/temp.txt
+MissSexo/modules/helper_funcs/temp.txt
 start-3.6.bat
 *.session
 kangsticker.png
 venv
 env
-saitama.session-journal
+misssexo.session-journal
 updates.txt
 *.exe
