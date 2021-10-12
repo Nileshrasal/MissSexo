@@ -64,12 +64,12 @@ RUN apt update && apt upgrade -y && \
 # Pypi package Repo upgrade
 RUN pip3 install --upgrade pip setuptools
 
-# Copy Python Requirements to /root/Mizuki
+# Copy Python Requirements to /root/MissSexo
 RUN git clone -b shiken https://github.com/Javes786/MissSexo /root/MissSexo
 WORKDIR /root/MissSexo
 
-#Copy config file to /root/MissSexo/Mizuki
-COPY ./Mizuki/sample_config.py ./Mizuki/config.py* /root/MissSexo/Mizuki/
+#Copy config file to /root/MissSexo/MissSexo
+COPY ./MissSexo/sample_config.py ./MissSexo/config.py* /root/MissSexo/MissSexo/
 
 ENV PATH="/home/bot/bin:$PATH"
 
