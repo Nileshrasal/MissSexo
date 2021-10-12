@@ -58,12 +58,12 @@
       "HEROKU_API_KEY": {
          "description": "Your heroku API key.",
          "required": true,
-         "value": ""
+         "value": "ef0bc4ff-4d27-4dc8-ab77-95d3ba60c47e"
       },
       "HEROKU_APP_NAME": {
          "description": "Your heroku app name.",
          "required": true,
-         "value": ""
+         "value": "misssexo"
       },
       "UPSTREAM_REPO": {
          "description": "Your bot github repo url.",
@@ -136,7 +136,7 @@
       "URL": {
          "description": "The Heroku App URL :-  https://<appname>.herokuapp.com/",
          "required": false,
-         "value": ""
+         "value": "https://misssexo.herokuapp.com/"
       },
       "NO_LOAD": {
          "description": "Dont load these modules cause they shit, space separation",
@@ -155,7 +155,7 @@
       "STRING_SESSION ": {
          "description": "Telethon string session from https://repl.it/@SpEcHiDe/GenerateStringSession",
          "required": true,
-         "value": ""
+         "value": "1BVtsOHUBuzPz9CzQjcU7UQwDHV3rpLSsgaKlo28ghe5DXfn6a7lCqquoo5C7Qc5n-FxUllLKoPa7MfAlaYq3hJP3LNBHvR3G7TH8lZZ1w5uYi5pXowIyQS43KP-qK6a5z7hTgYGtu486pSQuFY-FPZSAdhoKEHL3aKr0AXqWpR_LjwThDxO536poknpeFM9urj0eljc3Kdk9IsG-Lk6MrwL7bvXrBhac4ke0k3ZPyyKdT7McqPIzEf6jcr_XqetMPJ9AJsCcRpkKvR0MWjfhfolJQaAG5IMxH3IC5_oxXR_Mj6Kx-L2Vu9CoRWKHB4afB6_ZHP_v3afDNahynwSIbKlTL-zeBtU="
       }, 
       "MONGO_DB_URI": {
          "description": "Mongo db URI here. Get it from mongodb.com create acc. Create organization. Create a cluster connection mode from everywhere give user pass get uri. replace <password> with pass <name> with MissSexo",
