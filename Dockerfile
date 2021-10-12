@@ -66,7 +66,7 @@ RUN pip3 install --upgrade pip setuptools
 
 # Copy Python Requirements to /root/Mizuki
 RUN git clone -b shiken https://github.com/Javes786/MissSexo /root/MissSexo
-WORKDIR /root/Mizuki
+WORKDIR /root/MissSexo
 
 #Copy config file to /root/MissSexo/Mizuki
 COPY ./Mizuki/sample_config.py ./Mizuki/config.py* /root/MissSexo/Mizuki/
